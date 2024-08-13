@@ -50,3 +50,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     Portfolio / Personal Site: 
     GitHub: 
     LinkedIn: 
+
+  ---------------------------------------------------------------------------------------------------------------------------
+
+    Developer Name: Andrew Tadros
+    Portfolio / Personal Site: 
+    GitHub: 
+    LinkedIn: 
