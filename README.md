@@ -36,8 +36,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     Date Finished: 
 
     Developer Name: Nick McClure
-    Portfolio / Personal Site: https://n-mcclure.github.io/
-    GitHub: https://github.com/N-McClure
-    LinkedIn: https://www.linkedin.com/in/nick-mcclure-578565295/
-    YouTube: https://www.youtube.com/@NickMcClure_ProgrammingGuy
-    Blog: https://n-mcclure004.livejournal.com/
+    Portfolio / Personal Site: <a href="https://n-mcclure.github.io/"></a>
+    GitHub: <a href="https://github.com/N-McClure"></a>
+    LinkedIn: <a href="https://www.linkedin.com/in/nick-mcclure-578565295/"></a>
+    YouTube: <a href="https://www.youtube.com/@NickMcClure_ProgrammingGuy"></a>
+    Blog: <a href="https://n-mcclure004.livejournal.com/"></a>
