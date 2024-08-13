@@ -46,7 +46,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     
 ---------------------------------------------------------------------------------------------------------------------------
 
-    Developer Name: Cameron Wilsom
+    Developer Name: Cameron Wilson
     Portfolio / Personal Site: 
     GitHub: 
     LinkedIn: 
