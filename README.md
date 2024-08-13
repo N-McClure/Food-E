@@ -35,9 +35,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     Date Started: 2022-07-24
     Date Finished: 
 
+---------------------------------------------------------------------------------------------------------------------------
+
     Developer Name: Nick McClure
     Portfolio / Personal Site: https://n-mcclure.github.io/
     GitHub: https://github.com/N-McClure
     LinkedIn: https://www.linkedin.com/in/nick-mcclure-578565295/
     YouTube: https://www.youtube.com/@NickMcClure_ProgrammingGuy
-    Blog: https://n-mcclure004.livejournal.com/
+    Blog: https://n-mcclure004.livejournal.com
+    
+---------------------------------------------------------------------------------------------------------------------------
+
+    Developer Name: Cameron Wilsom
+    Portfolio / Personal Site: 
+    GitHub: 
+    LinkedIn: 
