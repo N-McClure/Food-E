@@ -1,20 +1,27 @@
 <p>profile works!</p>
 
-<mat-grid-list cols="3">
-    <!-- User's Profile Picture: -->
-    <mat-grid-tile rowspan="1">
-        <img src="/assets/images/default.png" id="profilePic">
-    </mat-grid-tile>
-    <!-- User's Username: -->
-    <mat-grid-tile colspan="2">
-        <h3 id="accountUsername">Username</h3>
-    </mat-grid-tile>
-    <!-- Log Out Button: -->
-    <mat-grid-tile colspan="1">
-        <button id="logout">Log Out</button>
-    </mat-grid-tile>
-    <!-- Text Area for the User's Description / Bio: -->
-     <mat-grid-tile colspan="2" rowspan="2">
-        <textarea id="bio">I am where the user's bio will go.</textarea>
-     </mat-grid-tile>
-</mat-grid-list>
+<table>
+    <!-- Row one (1):  -->
+    <tr>
+        <!-- User's Profile Picture: -->
+        <td><button matBadge="+" matBadgePosition="after" matBadgeSize="large"><img src="/assets/images/default.png" id="profilePic"></button></td>
+    </tr>
+    
+    <!-- Row two (2): -->
+    <tr>
+        <!-- User's Username: -->
+        <td><h3 id="accountUsername">Username</h3></td>
+    </tr>
+
+    <!-- Row three (3): -->
+    <tr>
+        <!-- Text Area for the User's Description / Bio: -->
+        <td><textarea id="bio">I am where the user's bio will go.</textarea></td>
+    </tr>
+
+    <!-- Row three (3): -->
+     <tr>
+        <!-- Button to Logout and route back to the Login page: -->
+        <td><button id="logout">Log Out</button></td>
+     </tr>
+</table>
