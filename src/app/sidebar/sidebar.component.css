@@ -37,6 +37,6 @@
 
   }
 
-  .sideBarContainer button:hover, .sideBarContainer input:hover{
+  .sideBarContainer button:hover, .sideBarContainer input:active, .sideBarContainer input:hover{
    background-color: white; 
   }
