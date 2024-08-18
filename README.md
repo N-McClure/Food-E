@@ -42,7 +42,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     GitHub: https://github.com/N-McClure
     LinkedIn: https://www.linkedin.com/in/nick-mcclure-578565295/
     YouTube: https://www.youtube.com/@NickMcClure_ProgrammingGuy
-    Blog: https://n-mcclure004.livejournal.com
     
 ---------------------------------------------------------------------------------------------------------------------------
 
