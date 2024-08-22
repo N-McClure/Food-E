@@ -16,6 +16,15 @@ import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { LogoComponent } from './logo/logo.component';
 import { ProfileComponent } from './profile/profile.component';
+import { Routes, RouterModule } from '@angular/router';
+
+// Defined Routes for Home page / app and the Login / Signup page:
+  // Default route or "" = Login / Signup Page.
+  // non-default route or !"" = Application. 
+  const approutes: Routes = [
+    {path: "", component: LoginAndSignupComponent}, 
+    {path: "home", component: SidebarComponent}
+  ]
 
 @NgModule({
   declarations: [
@@ -34,9 +43,12 @@ import { ProfileComponent } from './profile/profile.component';
     BrowserAnimationsModule,
     MaterialModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(approutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}
