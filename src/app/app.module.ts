@@ -17,6 +17,7 @@ import { LoginComponent } from './login/login.component';
 import { LogoComponent } from './logo/logo.component';
 import { ProfileComponent } from './profile/profile.component';
 import { Routes, RouterModule } from '@angular/router';
+import { MiddleFooterComponent } from './middle-footer/middle-footer.component';
 
 // Defined Routes for Home page / app and the Login / Signup page:
   // Default route or "" = Login / Signup Page.
@@ -36,7 +37,8 @@ import { Routes, RouterModule } from '@angular/router';
     SignupComponent,
     LoginComponent,
     LogoComponent,
-    ProfileComponent
+    ProfileComponent,
+    MiddleFooterComponent
   ],
   imports: [
     BrowserModule,

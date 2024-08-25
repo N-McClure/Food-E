@@ -1,27 +1,19 @@
 <p>profile works!</p>
 
-<table>
-    <!-- Row one (1):  -->
-    <tr>
-        <!-- User's Profile Picture: -->
-        <td><button matBadge="+" matBadgePosition="after" matBadgeSize="large"><img src="/assets/images/default.png" id="profilePic"></button></td>
-    </tr>
+<div class="profileContainer">
     
-    <!-- Row two (2): -->
-    <tr>
-        <!-- User's Username: -->
-        <td><h3 id="accountUsername">Username</h3></td>
-    </tr>
+    <!-- User's Profile Picture: -->
+    <button matBadge="+" matBadgePosition="after" matBadgeSize="large"><img src="/assets/images/default.png" id="profilePic"></button>
+    
+    <!-- User's Username: -->
+    <h3 id="accountUsername">Username: {{testUserName}}</h3>
 
-    <!-- Row three (3): -->
-    <tr>
-        <!-- Text Area for the User's Description / Bio: -->
-        <td><textarea id="bio">I am where the user's bio will go.</textarea></td>
-    </tr>
+    <!-- Text Area for the User's Description / Bio: -->
+    <mat-card id="bio">{{testUserBio}}</mat-card>
 
-    <!-- Row three (3): -->
-     <tr>
-        <!-- Button to Logout and route back to the Login page: -->
-        <td><button id="logout" routerLink="">Log Out</button></td>
-     </tr>
-</table>
+    <br>
+
+    <!-- Button to Logout and route back to the Login page: -->
+    <button id="logout" routerLink="">Log Out</button>
+     
+</div>
