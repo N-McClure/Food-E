@@ -1,19 +1,35 @@
-<p>profile works!</p>
-
-<div class="profileContainer">
+<div class="profileContainer" *ngFor="let userCurrent of userArray">
     
+    <br>
+
     <!-- User's Profile Picture: -->
-    <button matBadge="+" matBadgePosition="after" matBadgeSize="large"><img src="/assets/images/default.png" id="profilePic"></button>
+    <button matBadge="+" matBadgePosition="after" matBadgeSize="large" id="profilePicButton" (click)="changePfp()"><img src="{{userCurrent.UserPfP}}" id="profilePic"></button>
     
     <!-- User's Username: -->
-    <h3 id="accountUsername">Username: {{testUserName}}</h3>
+    <h3 id="accountUsername">Username: {{userCurrent.UserName}}</h3>
 
     <!-- Text Area for the User's Description / Bio: -->
-    <mat-card id="bio">{{testUserBio}}</mat-card>
+    <mat-card id="bio">{{userCurrent.UserBio}}</mat-card>
 
     <br>
 
     <!-- Button to Logout and route back to the Login page: -->
     <button id="logout" routerLink="">Log Out</button>
+
+    <!-- Mat-Grid for the user's posted recipes: -->
+     <mat-grid-list cols="4" rowHeight="1:1">
+        <mat-grid-tile><img src="/assets/testImages/gnocchi.jpg"></mat-grid-tile>
+        <mat-grid-tile><img src="/assets/testImages/gnocchi.jpg"></mat-grid-tile>
+        <mat-grid-tile><img src="/assets/testImages/gnocchi.jpg"></mat-grid-tile>
+        <mat-grid-tile><img src="/assets/testImages/gnocchi.jpg"></mat-grid-tile>
+
+        <mat-grid-tile><img src="/assets/testImages/gnocchi.jpg"></mat-grid-tile>
+        <mat-grid-tile><img src="/assets/testImages/gnocchi.jpg"></mat-grid-tile>
+        <mat-grid-tile><img src="/assets/testImages/gnocchi.jpg"></mat-grid-tile>
+        <mat-grid-tile><img src="/assets/testImages/gnocchi.jpg"></mat-grid-tile>
+
+        <mat-grid-tile><img src="/assets/testImages/gnocchi.jpg"></mat-grid-tile>
+        <mat-grid-tile><img src="/assets/testImages/gnocchi.jpg"></mat-grid-tile>
+     </mat-grid-list>
      
 </div>

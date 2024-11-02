@@ -1,0 +1,22 @@
+{
+    "testUsers": [
+        {
+            "id": "00",
+            "UserName" : "T3stUser_0",
+            "UserBio" : "I am someone who was created for all testing purposes, I love Tests! AND FOOD!",
+            "UserPfP": "/assets/testImages/default.png"
+        },
+        {
+            "id": "01",
+            "UserName": "Nick_C30",
+            "UserBio": "I am the CEO, Founder, and Lead Developer of this app.",
+            "UserPfP": "/assets/testImages/HeadshotRBG.png"
+        },
+        {
+            "id": "02",
+            "UserName": "F4k3-Us3r_1",
+            "UserBio": "I am another user who doesn't exist IRL here for testing and debugging purposes.",
+            "UserPfP": "/assets/testImages/default.png"
+        }
+    ]
+}

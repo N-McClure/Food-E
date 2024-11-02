@@ -1,10 +1,22 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
 
-<form action="#" id="loginForm">
+<form [formGroup]="loginForm" (ngSubmit)="logIn()" id="loginForm">
     <h4>Log In</h4>
-    <label>Username: </label><input type="text" name="username" required placeholder="enter your username...">
-    <br><br>
-    <label>Password: </label><input type="password" name="password" required placeholder="enter your password..."><button class="viewInputtedPw"><i class="ri-eye-line"></i></button>
+    <div class="flexSetup">
+        <label placeholder="enter your username...">Username: </label>
+        <input matInput formControlName="username">
+      <span *ngIf="!loginForm.get('username')!.valid && loginForm.get('username')!.touched">
+          This field is required
+      </span>
+
+      <br><br>
+
+        <label placeholder="enter your password...">Password: </label>
+        <input matInput formControlName="password" type="password"><button class="viewInputtedPw"><i class="ri-eye-line"></i></button>
+      <span *ngIf="!loginForm.get('password')!.valid && loginForm.get('password')!.touched">
+          This field is required
+      </span>
+    </div>
     <br><br>
     <button type="submit" class="submitLogin" routerLink="/home">Log In</button>
 

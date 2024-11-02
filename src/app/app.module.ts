@@ -19,6 +19,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { Routes, RouterModule } from '@angular/router';
 import { MiddleFooterComponent } from './middle-footer/middle-footer.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 // Defined Routes for Home page / app and the Login / Signup page:
   // Default route or "" = Login / Signup Page.
   // non-default route or !"" = Application. 
@@ -46,7 +48,8 @@ import { MiddleFooterComponent } from './middle-footer/middle-footer.component';
     MaterialModule,
     ReactiveFormsModule,
     FormsModule,
-    RouterModule.forRoot(approutes)
+    RouterModule.forRoot(approutes),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

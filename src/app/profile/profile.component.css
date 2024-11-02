@@ -18,3 +18,11 @@ mat-card {
     background-color: white; 
     color: rgb(95, 56, 30);
 }
+
+mat-grid-tile:hover, #profilePicButton:hover {
+    opacity: 50%;
+}
+
+#profilePicButton {
+    background-color:rgb(95, 56, 30);
+}
