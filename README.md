@@ -32,7 +32,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
     Project Description: A Social-Media-esque app where users can share, save, like, and comment on recipes. Kinda like "Pinterest" but with an "Instagram" styled UI/Layout.
     
-    Date Started: 2022-07-24
+    Date Started: 2023-07-24
     Date Finished: 
 
 ---------------------------------------------------------------------------------------------------------------------------
